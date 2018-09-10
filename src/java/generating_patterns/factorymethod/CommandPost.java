@@ -2,7 +2,7 @@ package factorymethod;
 
 public class CommandPost {
     public static void main(String[] args) {
-        RocketsFactory factoryRockets = createRocketByType("Typhoon");
+        RocketsFactory factoryRockets = createRocketByType("Tornado");
         Rockets rockets = factoryRockets.createRockets();
         rockets.rocketLaunch();
     }
